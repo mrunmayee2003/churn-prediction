@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: never commit raw data or databases
+data/raw/
+data/processed/
+*.duckdb
+*.parquet
+*.csv
+
+# Kaggle credentials
+.env
+kaggle.json
+
+# MacOS
+.DS_Store
+
+# Jupyter figures output
+notebooks/figures/
